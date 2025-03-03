@@ -1,0 +1,168 @@
+ADC
+add with carry
+AND
+and (with accumulator)
+ASL
+arithmetic shift left
+BCC
+branch on carry clear
+BCS
+branch on carry set
+BEQ
+branch on equal (zero set)
+BIT
+bit test
+BMI
+branch on minus (negative set)
+BNE
+branch on not equal (zero clear)
+BPL
+branch on plus (negative clear)
+BRK
+break / interrupt
+BRL
+branch always long
+BVC
+branch on overflow clear
+BVS
+branch on overflow set
+CLC
+clear carry
+CLD
+clear decimal
+CLI
+clear interrupt disable
+CLV
+clear overflow
+CMP
+compare (with accumulator)
+COP
+co-processor empowerment
+CPX
+compare with X
+CPY
+compare with Y
+DEC
+decrement
+DEX
+decrement X
+DEY
+decrement Y
+EOR
+exclusive or (with accumulator)
+INC
+increment
+INX
+increment X
+INY
+increment Y
+JML
+jump long (interbank)
+JMP
+jump
+JSL
+jump to subroutine long (interbank)
+JSR
+jump subroutine
+LDA
+load accumulator
+LDX
+load X
+LDY
+load Y
+LSR
+logical shift right
+MVN
+block move negative
+MVP
+block move positive
+NOP
+no operation
+ORA
+or with accumulator
+PEA
+push effective absolute address onto stack
+PEI
+push effective indirect address onto stack
+PER
+push effective program counter relative address onto stack
+PHA
+push accumulator
+PHB
+push data bank register onto stack
+PHD
+push direct page register onto stack
+PHK
+push program bank register onto stack
+PHP
+push processor status (SR)
+PLA
+pull accumulator
+PLB
+pull data bank register from stack
+PLD
+pull direct page register from stack
+PLP
+pull processor status (SR)
+REP
+reset status bits
+ROL
+rotate left
+ROR
+rotate right
+RSL
+return from subroutine long
+RTI
+return from interrupt
+RTS
+return from subroutine
+SBC
+subtract with carry
+SEC
+set carry
+SED
+set decimal
+SEI
+set interrupt disable
+SEP
+set status bits
+STA
+store accumulator
+STP
+stop the processor
+STX
+store X
+STY
+store Y
+TAX
+transfer accumulator to X
+TAY
+transfer accumulator to Y
+TCD
+transfer 16-bit accumulator to direct page register
+TCS
+transfer accumulator to stack pointer
+TDC
+transfer direct page register to 16-bit accumulator
+TSC
+transfer stack pointer to 16-bit accumulator
+TSX
+transfer stack pointer to X
+TXA
+transfer X to accumulator
+TXS
+transfer X to stack pointer
+TXY
+transfer index registers X to Y
+TYA
+transfer Y to accumulator
+TYX
+transfer index registers Y to X
+WAI
+wait for interrupt
+WDM
+reserved for future two-byte opcodes
+XBA
+exchange the B and A accumulators
+XCE
+exchange carry and emulation bits
